@@ -9,7 +9,7 @@ try:
     file.close()
     print(contents)
 except:
-    print("You have the wrong file brudda. I will now create it for you brudda :)")
+    print("You have the wrong file. I will now create it for you.")
     file = open("myfile2.txt", "w")
     file.close()
 
